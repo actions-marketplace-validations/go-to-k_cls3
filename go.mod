@@ -12,7 +12,7 @@ require (
 	github.com/aws/smithy-go v1.22.2
 	github.com/charmbracelet/bubbletea v1.1.1
 	github.com/fatih/color v1.18.0
-	github.com/rs/zerolog v1.33.0
+	github.com/rs/zerolog v1.34.0
 	github.com/stretchr/testify v1.10.0
 	github.com/urfave/cli/v2 v2.27.4
 	go.uber.org/goleak v1.3.0
