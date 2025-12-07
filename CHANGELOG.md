@@ -1,5 +1,49 @@
 # Changelog
 
+## [v0.31.1](https://github.com/go-to-k/cls3/compare/v0.31.0...v0.31.1) - 2025-11-29
+- chore: change go and bubbletea version by @go-to-k in https://github.com/go-to-k/cls3/pull/406
+
+## [v0.31.0](https://github.com/go-to-k/cls3/compare/v0.30.1...v0.31.0) - 2025-11-29
+- chore: change reviewdog settings in CI by @go-to-k in https://github.com/go-to-k/cls3/pull/402
+- chore(deps): bump actions/checkout from 5 to 6 by @dependabot[bot] in https://github.com/go-to-k/cls3/pull/404
+- chore(deps): bump actions/upload-artifact from 4 to 5 by @dependabot[bot] in https://github.com/go-to-k/cls3/pull/400
+- chore(deps): bump go.uber.org/mock from 0.4.0 to 0.6.0 by @dependabot[bot] in https://github.com/go-to-k/cls3/pull/393
+- feat: support `aws login` by @go-to-k in https://github.com/go-to-k/cls3/pull/405
+- chore(deps): bump github.com/rs/zerolog from 1.33.0 to 1.34.0 by @dependabot[bot] in https://github.com/go-to-k/cls3/pull/391
+
+## [v0.30.1](https://github.com/go-to-k/cls3/compare/v0.30.0...v0.30.1) - 2025-10-15
+- ci: enable immutable releases by @go-to-k in https://github.com/go-to-k/cls3/pull/395
+
+## [v0.30.0](https://github.com/go-to-k/cls3/compare/v0.29.0...v0.30.0) - 2025-10-02
+- feat: change default region to us-east-1 by @go-to-k in https://github.com/go-to-k/cls3/pull/385
+- chore(deps): bump actions/checkout from 4 to 5 by @dependabot[bot] in https://github.com/go-to-k/cls3/pull/372
+- chore(deps): bump actions/setup-go from 5 to 6 by @dependabot[bot] in https://github.com/go-to-k/cls3/pull/375
+- ci: add 'endpoint' to scopes in PR title lint by @go-to-k in https://github.com/go-to-k/cls3/pull/387
+- chore(deps): bump amannn/action-semantic-pull-request from 5 to 6 by @dependabot[bot] in https://github.com/go-to-k/cls3/pull/374
+- chore(deps): bump github.com/charmbracelet/bubbletea from 1.1.1 to 1.3.10 by @dependabot[bot] in https://github.com/go-to-k/cls3/pull/373
+- revert: "chore(deps): bump github.com/charmbracelet/bubbletea (#373)" by @go-to-k in https://github.com/go-to-k/cls3/pull/388
+- chore(deps): bump github.com/aws/aws-sdk-go-v2/service/s3vectors from 1.0.1 to 1.4.8 by @dependabot[bot] in https://github.com/go-to-k/cls3/pull/380
+
+## [v0.29.0](https://github.com/go-to-k/cls3/compare/v0.28.1...v0.29.0) - 2025-09-24
+- feat: allow S3 endpoint to use -d, -t and -V options by @go-to-k in https://github.com/go-to-k/cls3/pull/370
+
+## [v0.28.1](https://github.com/go-to-k/cls3/compare/v0.28.0...v0.28.1) - 2025-09-23
+- chore: remove warning if specifying -o and -e by @go-to-k in https://github.com/go-to-k/cls3/pull/367
+- chore(deps): bump golang.org/x/sync from 0.11.0 to 0.14.0 by @dependabot[bot] in https://github.com/go-to-k/cls3/pull/355
+- revert: chore(deps): bump golang.org/x/sync from 0.11.0 to 0.14.0 (#355) by @go-to-k in https://github.com/go-to-k/cls3/pull/369
+
+## [v0.28.0](https://github.com/go-to-k/cls3/compare/v0.27.1...v0.28.0) - 2025-09-23
+- test: modify validation in testdata script for vector by @go-to-k in https://github.com/go-to-k/cls3/pull/361
+- test(version): comment out version tests by @go-to-k in https://github.com/go-to-k/cls3/pull/365
+- feat: custom endpoint url by @go-to-k in https://github.com/go-to-k/cls3/pull/366
+
+## [v0.27.1](https://github.com/go-to-k/cls3/compare/v0.27.0...v0.27.1) - 2025-07-29
+- chore: fix .gitignore for testdata by @go-to-k in https://github.com/go-to-k/cls3/pull/358
+- refactor: early return in wrapper by @go-to-k in https://github.com/go-to-k/cls3/pull/360
+
+## [v0.27.0](https://github.com/go-to-k/cls3/compare/v0.26.0...v0.27.0) - 2025-07-29
+- feat: support S3 Vectors by @go-to-k in https://github.com/go-to-k/cls3/pull/356
+
 ## [v0.26.0](https://github.com/go-to-k/cls3/compare/v0.25.4...v0.26.0) - 2025-04-15
 - feat(app): add `-k | --keyPrefix` option to delete objects with a specific key prefix by @go-to-k in https://github.com/go-to-k/cls3/pull/350
 
