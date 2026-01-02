@@ -1,5 +1,15 @@
 # Changelog
 
+## [v0.32.1](https://github.com/go-to-k/cls3/compare/v0.32.0...v0.32.1) - 2026-01-02
+- chore: fix mismatch for version number in changelog by @go-to-k in https://github.com/go-to-k/cls3/pull/421
+- fix: deserialization failed by @go-to-k in https://github.com/go-to-k/cls3/pull/424
+
+## [v0.32.0](https://github.com/go-to-k/cls3/compare/v0.31.2...v0.32.0) - 2026-01-01
+- fix: mismatch for version number in changelog by @go-to-k in https://github.com/go-to-k/cls3/pull/418
+
+## [v0.31.2](https://github.com/go-to-k/cls3/compare/v0.31.1...v0.31.2) - 2026-01-01
+- feat: support path-style URL by @go-to-k in https://github.com/go-to-k/cls3/pull/416
+
 ## [v0.31.1](https://github.com/go-to-k/cls3/compare/v0.31.0...v0.31.1) - 2025-11-29
 - chore: change go and bubbletea version by @go-to-k in https://github.com/go-to-k/cls3/pull/406
 
